@@ -2245,4 +2245,12 @@ input[type='file'] {
         font-size: var(--font-size-xl);
     }
 }
-```
+.menu-toggle.active .menu-toggle__line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+.menu-toggle.active .menu-toggle__line:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggle.active .menu-toggle__line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
